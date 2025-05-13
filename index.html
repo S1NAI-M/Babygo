@@ -2,12 +2,62 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>BabyGo</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BabyGo — магазин детских колясок</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
-  <h1>Добро пожаловать в магазин BabyGo!</h1>
-  <p>Ваш надёжный выбор детских колясок.</p>
+    <header>
+        <img src="logo.png" alt="BabyGo logo" class="logo">
+        <nav>
+            <a href="#catalog">Каталог</a>
+            <a href="#about">О нас</a>
+            <a href="#contact">Контакты</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h1>BabyGo — всё для прогулок с малышом</h1>
+            <p>Выбирайте удобные и стильные коляски для своих детей</p>
+        </section>
+
+        <section id="catalog" class="grid">
+            <div class="product">
+                <img src="images/stroller1.jpg" alt="Коляска 1">
+                <h2>Коляска Modern</h2>
+                <p>Удобная и легкая коляска для города.</p>
+                <button>В корзину</button>
+            </div>
+            <div class="product">
+                <img src="images/stroller2.jpg" alt="Коляска 2">
+                <h2>Коляска Classic</h2>
+                <p>Классический стиль и надёжность.</p>
+                <button>В корзину</button>
+            </div>
+            <div class="product">
+                <img src="images/stroller3.jpg" alt="Коляска 3">
+                <h2>Коляска Travel</h2>
+                <p>Складная модель для путешествий.</p>
+                <button>В корзину</button>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>О нас</h2>
+            <p>Мы — BabyGo, онлайн-магазин, который помогает родителям выбирать качественные и надёжные коляски. Наша миссия — дарить комфорт детям и уверенность родителям.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Контакты</h2>
+            <p>Свяжитесь с нами в Telegram: <a href="https://t.me/babygo_support" target="_blank">@babygo_support</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 BabyGo. Все права защищены.</p>
+    </footer>
 </body>
 </html>
